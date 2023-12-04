@@ -16,9 +16,3 @@ This repository contains a simple Python script to generate random passwords.
 
 ## Dependencies
 None. The script is written in Python 3.
-
-## Making a contribution
-If you find bugs or have suggestions for improvement, don't hesitate to create an issue or send a pull request.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for more information.
