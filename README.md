@@ -8,10 +8,13 @@ This repository contains a simple Python script to generate random passwords.
     ```bash
     git clone https://github.com/your-username/password-generator.git
     cd password-generator
-Run the script:
-bash
-Copy code
-python password_generator.py
+    ```
+2. **Run the script:**
+    ```bash
+    Copy code
+    python password_generator.py
+    ```
+
 Dependencies
 None. The script is written in Python 3.
 
