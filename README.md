@@ -11,15 +11,14 @@ This repository contains a simple Python script to generate random passwords.
     ```
 2. **Run the script:**
     ```bash
-    Copy code
     python password_generator.py
     ```
 
-Dependencies
+## Dependencies
 None. The script is written in Python 3.
 
-Making a contribution
+## Making a contribution
 If you find bugs or have suggestions for improvement, don't hesitate to create an issue or send a pull request.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for more information.
