@@ -1,5 +1,6 @@
 import random
 import string
+import pyperclip
 
 def generate_password(length=12):
     characters = string.ascii_letters + string.digits + string.punctuation
@@ -7,7 +8,10 @@ def generate_password(length=12):
     return password
 
 if __name__ == "__main__":
-    password_length = int(input("Enter password length (default 12): ") or 12)
-    generated_password = generate_password(password_length)
 
-    print(f"\nGenerated password: {generated_password}")
+    while True:
+        password_length = int(input("Enter password length (default 12): ") or 12)
+        generated_password = generate_password(password_length)
+        pyperclip.copy(generated_password)
+
+        print(f"Generated password: {generated_password}\n")
